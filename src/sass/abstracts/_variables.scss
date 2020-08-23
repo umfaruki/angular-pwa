@@ -1,0 +1,21 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+/// Main-brand color
+/// @type Color
+$primary:       #38A854;
+$success:       green;
+$danger:        red;
+$warning:       yellow;
+$secondary:     #6c757d;
+
+/// Breakpoints map
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+$breakpoints: (
+  'small': (min-width: 600px),
+  'medium': (min-width: 1024px),
+  'large': (min-width: 1440px),
+  'xlarge': (min-width: 1920px)
+) !default;

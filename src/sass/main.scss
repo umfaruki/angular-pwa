@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+@import 'abstracts/variables';
+
+// Bootstrap imports begin here
+// Required
+@import "../node_modules/bootstrap/scss/bootstrap";
+// Bootstrap imports end here
+
+@import 'base/common';
